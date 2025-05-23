@@ -1,0 +1,32 @@
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<title>mail decoder</title>
+</head><body>
+<h1>mail decoder</h1>
+
+decode Quoted-Printable and JIS encoded string<br>
+Quoted-PrintableとJISで変換されたメールをデコードします<br>
+<textarea id=src></textarea><br>
+↓<br>
+<textarea id=dst></textarea><br>
+
+<script type="module">
+import { Mail } from "./Mail.js";
+
+src.onchange = src.onkeyup = () => {
+  const v = src.value;
+  dst.value = Mail.decode(v);
+}
+</script>
+
+<style>
+textarea {
+  margin: .3em 0;
+  width: 95vw;
+  height: 10em;
+}
+</style>
+
+<hr>
+<a href=https://github.com/code4fukui/maildecoder/>src on GitHub</a><br>
+
+</body></html>
