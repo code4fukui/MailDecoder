@@ -1,6 +1,6 @@
 # MailDecoder
 
-http://code4fukui.github.io/maildecoder/
+https://code4fukui.github.io/MailDecoder/
 
 ## reference
 
