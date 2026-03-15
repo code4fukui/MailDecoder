@@ -1,5 +1,7 @@
 # MailDecoder
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 A library for encoding and decoding email content in Quoted-Printable and JIS character encodings.
 
 ## Demo
