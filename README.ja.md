@@ -1,17 +1,17 @@
 # MailDecoder
 
-Quoted-Printable形式とJIS文字エンコーディングを使ってエンコードされたメールメッセージをデコードするツールです。
+Quoted-Printable形式とJIS文字エンコーディングで変換されたメールメッセージをデコードするツールです。
 
 ## デモ
 https://code4fukui.github.io/MailDecoder/
 
 ## 機能
-- Quoted-Printable形式の解読
-- JIS文字エンコーディングの解読
-- Quoted-Printable形式とJIS文字エンコーディングの両方を組み合わせて使ったメールのデコード
+- Quoted-Printable形式のデコード
+- JIS文字エンコーディングのデコード
+- Quoted-Printable形式とJIS文字エンコーディングが混在するメールのデコード
 
 ## 使い方
-HTMLファイルを開き、デコードしたい文字列をテキストエリアに入力すると、自動的にデコードされた結果が表示されます。
+HTML ファイルを開き、デコードしたい文字列をテキストエリアに入力すると、自動的にデコードされた結果が表示されます。
 
 ## ライセンス
 MIT License

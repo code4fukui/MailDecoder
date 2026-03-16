@@ -25,4 +25,4 @@ const decodedString = Mail.decode(encodedString);
 ```
 
 ## License
-MIT License
+MIT License — see [LICENSE](LICENSE).
